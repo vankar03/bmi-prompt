@@ -1,0 +1,28 @@
+body
+{
+          display: flex; /*align item and justify content works only if we use flex*/
+          align-items:center; 
+          justify-content:center; /*x axis alignment is only done here*/
+          height:100vh; /*for y axis we use height*/
+          background-color:rgb(108, 192, 192);
+}
+
+.container
+{
+    border-radius:10px;
+    border:1px solid black;
+    /* box-shadow: black; */
+    width:500px;
+    margin:5px;
+    padding:5px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(231, 242, 242);
+}
+
+
+
+
+
+
+
